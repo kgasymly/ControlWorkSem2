@@ -109,7 +109,7 @@ public class QuizGame {
         System.out.println("Имя\t\tОчки\tДата игры");
         System.out.println("--------------------------------------------------");
 
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm");
 
         for (Game game : raiting.games) {
             System.out.printf("%s\t\t%d\t%s\n",
